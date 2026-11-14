@@ -357,11 +357,10 @@ The Spark pipeline and test commands run inside the Docker image. A separate loc
 ### Step 1: Clone the Repository
 
 ```powershell
-git clone <YOUR_PUBLIC_GITHUB_REPOSITORY_URL>
-cd dataflow-processing-engine
+git clone https://github.com/murari123-byte/Dataflow-Processing-Engine.git
+cd Dataflow-Processing-Engine
 ```
 
-Replace the placeholder with the public GitHub repository URL after creating the repository.
 
 ### Step 2: Build the Docker Image
 
@@ -449,7 +448,7 @@ The latest verified test execution completed with **38 passing tests**.
 Latest verified execution:
 
 ```text
-38 passed in 39.50s
+38 passed in 38.59s
 ```
 
 Tests cover analytical calculations, dimensional-model integrity, out-of-order batch records, monitoring, publishing and rollback failures, reconciliation, and data validation.
