@@ -1,0 +1,6 @@
+order_id,expected_issue
+O000000100,invalid_customer_reference
+O000000200,negative_quantity
+O000000300,negative_unit_price
+O000000400,malformed_timestamp
+O000001000,missing_customer_id

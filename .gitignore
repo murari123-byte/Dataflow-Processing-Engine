@@ -1,0 +1,38 @@
+# Python virtual environments
+.venv/
+.venv310/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Generated large datasets
+data/generated/*.csv
+data/generated/large/
+
+# Keep the reproducible sample dataset
+!data/generated/sample/
+!data/generated/sample/*.csv
+
+# Pipeline output datasets
+data/output/
+data/quarantine/
+
+# Runtime analytics and monitoring reports
+reports/analytics/
+reports/pipeline_runs.jsonl
+reports/reconciliation_report.json
+
+# Temporary project inspection file
+project_structure.txt
+
+# Temporary inspection scripts
+inspect_output_schemas.py
+
+# Windows-only Hadoop utility (not required by Docker)
+tools/hadoop/bin/winutils.exe

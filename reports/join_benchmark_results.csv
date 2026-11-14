@@ -1,0 +1,12 @@
+iteration,standard_join_seconds,broadcast_join_seconds
+1,0.622,0.369
+2,0.407,0.329
+3,0.423,0.286
+
+metric,value
+input_records,100050
+missing_customer_ids,150
+invalid_customer_references,100
+standard_median_seconds,0.423
+broadcast_median_seconds,0.329
+improvement_percent,22.06

@@ -1,0 +1,12 @@
+run,baseline_seconds,optimized_seconds
+1,4.291,1.077
+2,3.249,0.982
+3,3.259,0.745
+
+metric,value
+valid_records,99500
+rejected_records,550
+aggregation_groups,1830
+baseline_median_seconds,3.259
+optimized_median_seconds,0.982
+median_improvement_percent,69.86
